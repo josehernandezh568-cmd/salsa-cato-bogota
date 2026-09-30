@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://josehernandezh568-cmd.github.io/salsa-cato-bogota/sitemap.xml
