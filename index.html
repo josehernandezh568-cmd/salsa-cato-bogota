@@ -281,7 +281,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "Me interesa: " + d.pack + "." +
         (d.direccion ? "\nDirección / referencia: " + d.direccion + "." : "");
 
-      setTimeout(function () { goWhatsApp(msg, {lead_type: "consumer", pack: d.pack, source: "trial_form"}); }, 150);
+      setTimeout(function () {
+  goWhatsApp(msg, {
+    lead_type: "consumer",
+    pack: d.pack,
+    source: "trial_form"
+  });
+}, 1000);
     });
   }
 
